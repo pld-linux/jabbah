@@ -8,6 +8,7 @@ Group:		Libraries
 Source0:	http://download.berlios.de/jabbah/%{name}-%{version}.tar.gz
 # Source0-md5:	0bbc433e630f245e8b71ecc1481b6cce
 URL:		http://jabbah.bazyl.net/
+BuildRequires:	expat-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -26,7 +27,7 @@ Summary:	Header files for jabbah library
 Summary(pl):	Pliki nag³ówkowe biblioteki jabbah
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
-Requires:	libstdc++-devel
+Requires:	expat-devel
 
 %description devel
 Header files for jabbah library.
