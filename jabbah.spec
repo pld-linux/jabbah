@@ -15,12 +15,18 @@ Jabbah is simple library with very easy to understand API for jabber
 communicators. Its aim is to implement whole XMPP protocol and as many
 JEPs as possible.
 
+%description -l pl
+Jabbah to prosta biblioteka z bardzo ³atwym do zrozumienia API dla
+komunikatorów jabbera. Jej celem jest zaimplementowanie ca³ego
+protoko³u XMPP i tak wiele JEP (Jabber Extension Protocol) jak to
+mo¿liwe.
+
 %package devel
-Summary:        Header files for jabbah library
-Summary(pl):    Pliki nag³ówkowe biblioteki jabbah
-Group:          Development/Libraries
-Requires:       %{name} = %{version}-%{release}
-Requires:       libstdc++-devel
+Summary:	Header files for jabbah library
+Summary(pl):	Pliki nag³ówkowe biblioteki jabbah
+Group:		Development/Libraries
+Requires:	%{name} = %{version}-%{release}
+Requires:	libstdc++-devel
 
 %description devel
 Header files for jabbah library.
@@ -29,10 +35,10 @@ Header files for jabbah library.
 Pliki nag³ówkowe biblioteki jabbah.
 
 %package static
-Summary:        Static version of jabbah libraries
-Summary(pl):    Statyczne wersje bibliotek jabbah
-Group:          Development/Libraries
-Requires:       %{name}-devel = %{version}-%{release}
+Summary:	Static version of jabbah libraries
+Summary(pl):	Statyczne wersje bibliotek jabbah
+Group:		Development/Libraries
+Requires:	%{name}-devel = %{version}-%{release}
 
 %description static
 Static version of jabbah libraries.
