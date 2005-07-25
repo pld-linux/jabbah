@@ -1,7 +1,8 @@
 Summary:	Jabbah is simple library with very easy to understand API for jabber communicators
+Summary(pl):	Jabbah to prosta biblioteka z bardzo ³atwym do zrozumienia API dla komunikatorów jabbera
 Name:		jabbah
 Version:	0.1
-Release:	0.1
+Release:	0.2
 License:	GPL v2
 Group:		Development
 Source0:	http://download.berlios.de/jabbah/%{name}-%{version}.tar.gz
