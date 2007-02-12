@@ -1,5 +1,5 @@
 Summary:	Jabbah - simple library with very easy to understand API for jabber communicators
-Summary(pl):	Jabbah - prosta biblioteka z bardzo 砤twym do zrozumienia API dla komunikator體 jabbera
+Summary(pl.UTF-8):   Jabbah - prosta biblioteka z bardzo 艂atwym do zrozumienia API dla komunikator贸w jabbera
 Name:		jabbah
 Version:	0.1
 Release:	0.2
@@ -16,15 +16,15 @@ Jabbah is simple library with very easy to understand API for jabber
 communicators. Its aim is to implement whole XMPP protocol and as many
 JEPs as possible.
 
-%description -l pl
-Jabbah to prosta biblioteka z bardzo 砤twym do zrozumienia API dla
-komunikator體 jabbera. Jej celem jest zaimplementowanie ca砮go
-protoko硊 XMPP i tak wiele JEP (Jabber Extension Protocol) jak to
-mo縧iwe.
+%description -l pl.UTF-8
+Jabbah to prosta biblioteka z bardzo 艂atwym do zrozumienia API dla
+komunikator贸w jabbera. Jej celem jest zaimplementowanie ca艂ego
+protoko艂u XMPP i tak wiele JEP (Jabber Extension Protocol) jak to
+mo偶liwe.
 
 %package devel
 Summary:	Header files for jabbah library
-Summary(pl):	Pliki nag丑wkowe biblioteki jabbah
+Summary(pl.UTF-8):   Pliki nag艂贸wkowe biblioteki jabbah
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 Requires:	expat-devel
@@ -32,19 +32,19 @@ Requires:	expat-devel
 %description devel
 Header files for jabbah library.
 
-%description devel -l pl
-Pliki nag丑wkowe biblioteki jabbah.
+%description devel -l pl.UTF-8
+Pliki nag艂贸wkowe biblioteki jabbah.
 
 %package static
 Summary:	Static version of jabbah libraries
-Summary(pl):	Statyczne wersje bibliotek jabbah
+Summary(pl.UTF-8):   Statyczne wersje bibliotek jabbah
 Group:		Development/Libraries
 Requires:	%{name}-devel = %{version}-%{release}
 
 %description static
 Static version of jabbah libraries.
 
-%description static -l pl
+%description static -l pl.UTF-8
 Statyczne wersje bibliotek jabbah.
 
 %prep
