@@ -1,5 +1,5 @@
 Summary:	Jabbah - simple library with very easy to understand API for jabber communicators
-Summary(pl.UTF-8):   Jabbah - prosta biblioteka z bardzo łatwym do zrozumienia API dla komunikatorów jabbera
+Summary(pl.UTF-8):	Jabbah - prosta biblioteka z bardzo łatwym do zrozumienia API dla komunikatorów jabbera
 Name:		jabbah
 Version:	0.1
 Release:	0.2
@@ -24,7 +24,7 @@ możliwe.
 
 %package devel
 Summary:	Header files for jabbah library
-Summary(pl.UTF-8):   Pliki nagłówkowe biblioteki jabbah
+Summary(pl.UTF-8):	Pliki nagłówkowe biblioteki jabbah
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 Requires:	expat-devel
@@ -37,7 +37,7 @@ Pliki nagłówkowe biblioteki jabbah.
 
 %package static
 Summary:	Static version of jabbah libraries
-Summary(pl.UTF-8):   Statyczne wersje bibliotek jabbah
+Summary(pl.UTF-8):	Statyczne wersje bibliotek jabbah
 Group:		Development/Libraries
 Requires:	%{name}-devel = %{version}-%{release}
 
